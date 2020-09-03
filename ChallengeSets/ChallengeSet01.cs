@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Reflection.Metadata.Ecma335;
+
 namespace ChallengeSets
 {
     public class ChallengeSet01
@@ -38,9 +40,8 @@ namespace ChallengeSets
 
         public string GetGreeting(string nameOfPerson)
         {
-            throw new NotImplementedException();
+            return (nameOfPerson == "") ? "Hello!" : $"Hello, {nameOfPerson}!";
         }
-
         public string GetHey()
         {
             return "HEY!";
