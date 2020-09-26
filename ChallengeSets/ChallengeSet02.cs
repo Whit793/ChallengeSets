@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ChallengeSets
 {
@@ -13,7 +14,7 @@ namespace ChallengeSets
 
         public bool CountOfElementsIsEven(string[] vals)
         {
-            throw new NotImplementedException();
+            return
         }
 
         public bool IsNumberEven(int number)
@@ -39,7 +40,7 @@ namespace ChallengeSets
 
         public int Sum(int[] numbers)
         {
-            throw new NotImplementedException();
+            return numbers.Sum();
         }
 
         public int SumEvens(int[] numbers)
