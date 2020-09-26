@@ -34,6 +34,7 @@ namespace ChallengeSets
             {
                 return (number2);
             }
+
             else
             {
                 return (number1);
