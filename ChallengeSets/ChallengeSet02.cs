@@ -14,7 +14,7 @@ namespace ChallengeSets
 
         public bool CountOfElementsIsEven(string[] vals)
         {
-            return
+            throw new NotImplementedException();
         }
 
         public bool IsNumberEven(int number)
@@ -45,12 +45,12 @@ namespace ChallengeSets
 
         public int SumEvens(int[] numbers)
         {
-            throw new NotImplementedException();
+            return numbers.Where(numbers=>numbers%2==0).Sum();
         }
 
         public bool IsSumOdd(List<int> numbers)
         {
-            throw new NotImplementedException();
+            return (numbers.Sum() % 2 != 0); 
         }
 
         public long CountOfPositiveOddsBelowNumber(long number)
