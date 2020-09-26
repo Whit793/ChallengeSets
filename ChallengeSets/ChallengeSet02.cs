@@ -35,7 +35,7 @@ namespace ChallengeSets
 
         public int GetLengthOfShortestString(string str1, string str2)
         {
-            throw new NotImplementedException();
+         
         }
 
         public int Sum(int[] numbers)
